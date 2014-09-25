@@ -1,8 +1,12 @@
 # 25. September 2014, Lukas and Cameron are playing around with data
 
+# choosing some data from the core R data sets on US States statistics
 statedata1 <- data.frame(state.x77, state.x77, stringsAsFactors = FALSE) # pulling out the "state.x77" matrix with 50 rows and 8 columns giving some statistics in the respective columns.
 
-# now statedata1 is a data frame itself
+# making a barplot showing
+barplot(state.data$Murder, main="Murder and Non-negligent Manslaughter rate per 100,000 Population (1976)", names.arg = state.abb, las=2, xlab="US States", space=1)
 
+install.packages("devtools")
+source_url('http://github.com/LBRETZIN/TestS18/blob/TestBranch/A1women.txt')
 
 setwd("c:/users/lukas/programms/github/testS18") # note
