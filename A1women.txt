@@ -1,13 +1,11 @@
 # looking at some data on American women
-women
+data(women)
 
 # converting
-
 women$weight <- women$weight * 0.45359237 # convert lb to kg
 women$height <- women$height * 0.0254  # convert in to m
 
 # analyse the data a little bit
-
 summary (women)
 boxplot(women$height, main = 'Average Heights for American Women aged 30–39 (m)')
 boxplot(women$weight, main = 'Average Weight for American Women aged 30–39 (kg)')
