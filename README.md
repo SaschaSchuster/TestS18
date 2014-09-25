@@ -8,13 +8,3 @@ We have a master branch and a pointless "TestBranch" created.
 The first assignment seen in this repository by the 26th of September 2014 can be found here on slide 4:
 https://github.com/HertieDataScience2014/SyllabusAndLectures/blob/master/LectureSlides/Lecture2/Lecture2.pdf?raw=true
 
-"Each pair will create a new public GitHub repository
-Must be fully documented, including with a descriptive
-README.md file.
-Include R source code files that:
-Access at least two core R data sets
-Illustrate the datas’ distributions using a variety of relevant
-descriptive statistics
-Two files must be dynamically linked
-Another pair makes a pull request. And this is
-discussed/merged."
