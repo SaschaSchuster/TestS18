@@ -1,0 +1,8 @@
+women
+women$weight <- women$weight * 0.45359237 # convert lb to kg
+women$height <- women$height * 0.0254  # convert in to m
+summary (women)
+boxplot(women$height, main = 'Average Heights for American Women aged 30–39 (m)')
+boxplot(women$weight, main = 'Average Weight for American Women aged 30–39 (kg)')
+plot(women, xlab = "Height (m)", ylab = "Weight (kg)",main = "American women aged 30-39")
+cor.test(log(women$height), women$height)
