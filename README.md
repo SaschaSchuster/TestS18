@@ -7,3 +7,6 @@ The first assignment seen in this repository by the 26th of September 2014 can b
 https://github.com/HertieDataScience2014/SyllabusAndLectures/blob/master/LectureSlides/Lecture2/Lecture2.pdf?raw=true
 
 The script for the Assignment (both datasets) is located in the TestBranch under "Asignment1.txt"; while the second file "A1women.txt" should be dynamically linked. 
+
+
+Just to let you guys know: @SaschaSchuster and @wwellis have checked your assignment and we approve of what you guys did!
